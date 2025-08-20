@@ -20,8 +20,6 @@ const Login = () => {
 
       console.log("Login Success:", response.data);
 
-      // You may want to store user in localStorage or context
-      // localStorage.setItem("user", JSON.stringify(response.data.data.user));
 
       alert("Login successful!");
       navigate("/admin/dashboard");
